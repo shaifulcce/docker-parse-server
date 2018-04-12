@@ -94,7 +94,7 @@ $ APP_ID=YOUR_APP_ID MASTER_KEY=YOUR_MASTER_KEY PARSE_DASHBOARD_ALLOW_INSECURE_H
 ```
 > #### Note 
 * We use `PARSE_DASHBOARD_ALLOW_INSECURE_HTTP=1` to allow insecure via development environment.
-> * `$ wget https://github.com/yongjhih/docker-parse-server/raw/master/docker-compose.yml -O - | APP_ID=YOUR_APP_ID MASTER_KEY=YOUR_MASTER_KEY docker-compose up -d -f - # not supported for docker-compose container`
+> * `$ wget https://github.com/shaifulcce/docker-parse-server/raw/master/docker-compose.yml -O - | APP_ID=YOUR_APP_ID MASTER_KEY=YOUR_MASTER_KEY docker-compose up -d -f - # not supported for docker-compose container`
 
 ### :paperclip: Deploy to Cloud Services
 * [Heroku + Mongolab Development](ADVANCE.md#getting-started-with-heroku--mongolab-development)
